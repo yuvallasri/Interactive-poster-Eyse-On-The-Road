@@ -42,12 +42,12 @@ div.title {
 }
 
 .img-fluid{
-    height:125px;
+    height:120px;
     width:100%;
-    border-radius: 30px;
+    border-radius: 60px;
 }
 .card{
-    height:125px;
+    height:120px;
     width:100%;
     border-radius: 30px;
 }
