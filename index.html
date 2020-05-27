@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interactive poster</title>
+</head>
+<body>
+<div class="view" style="background-image: url('image/backraound.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;"></div>
+<br/>
+<div class="container row header-container">
+    <img class="col-2" src="image/sapir.jpg" alt="logo sapir" width="150" height="170">
+    <div class="title col-8"><h1>המכללה האקדמית ספיר<br/> המחלקה למדעי המחשב </h1></div>
+    <img class="col-2" src="image/logo.jpg" alt="logo" width="170" height="150">
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="title">
+                <h1 class="projectName">Eyes On The Road</h1>
+                <h2>יובל לסרי ואלכס קלשניקוב</h2>
+                <h2>מנחה: ד"ר  עמית בן בסט</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container information-sections">
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-9 problem-section">
+            <a class="button1" data-toggle="collapse" data-target="#problem">הצגת הבעיה<i class='fas fa-exclamation-triangle' style='font-size:36px'></i></a>
+            <div id="problem" class="collapse p-3">
+                בכבישי הארץ בפרט ובעולם בכלל מתרחשים מפגעים רבים בדרכים. רובם המוחלט של מפגעים אלו מטופלים רק לאחר דיווח אנושי לגורמים הרלוונטיים מה שמעלה מספר בעיות:
+                <br/>
+                <ul>
+                    <li>דיווח אנושי לוקח זמן רב מה שעלול לעלות בחיים אדם ובטח אם מדובר בכבישים עם תנועה דלה.</li>
+                    <li>תיעוד וניתוח זירות המפגעים בכבישים לוקה בחוסר של פרטים אודות המפגע היות ואיסוף המידע מתחיל רק לאחר סיום האירוע.</li>
+                    <li>זרימת התנועה בסביבת הזירה נפגעת קשות עקב הזמן הנדרש לפנות\לטפל במפגע.</li>
+                </ul>
+                מטרת המערכת היא לפעול באופן עצמאי וללא תלות בגורם אנוש, על מנת לתת מענה, או לכל הפחות לייעל את הטיפול בבעיות הנ"ל וזאת על ידי ניתוח ועיבוד צילום בזמן אמת של מקטעי דרכים ויכולת אוטונומית לפעול על פי עץ פעולות מותאם לכל אירוע.
+                <iframe class="d-block accident-video mt-4" width="600" height="300" src="https://www.youtube.com/embed/FpOeZUPCBG8">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <br/><br/><br/>
+    <div class="row">
+        <div class="col-9 system-section">
+            <a class="button2" data-toggle="collapse" data-target="#system">תיאור המערכת<i class='fas fa-cogs' style='font-size:36px'></i></a>
+            <div id="system" class="collapse p-3">
+                <ul>
+                    <li>המערכת תתחבר בזמן אמת לאמצעי צילום בדרכים ועל ידי ניתוח ועיבוד וידיאו\תמונה של הממצאים תזהה מפגעים בכביש.</li>
+                    <li>המערכת תנהל בסיס נתונים המכיל מידע ותיעוד אודות המפגעים שהמערכת תזהה.</li>
+                    <li>המערכת תשתמש בטכנולוגית עיבוד תמונה על מנת לחלץ מידע בזמן אמת מהזירות השונות. לדוגמא בעת זיהוי תאונה – קריאת לוחיות הרישוי, ניתוח מהירות הרכבים, מספר רכבים מעורבים וכו'.</li>
+                    <li>בעת זיהוי מפגע כזה או אחר המערכת תתריע לגורמים הרלוונטיים ותקפיץ כוחות למקום.</li>
+                    <li>למערכת תהיה יכולת עצמאית לתיעול התנועה בקרבת המפגע על מנת למזער מפגעים נוספים ולהקל על עומסי התנועה באזור.</li>
+                    <li>המערכת תעשה שימוש ב deep learning לצורך התייעלות ודיוק זיהוי המפגעים ואיכות
+                        ניתוח ועיבוד הוידיאו לאחר כל מפגע.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br/><br/><br/>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-9 solve-section">
+            <a class="button3" data-toggle="collapse" data-target="#solve">הצגת הפתרון<i class='far fa-lightbulb' style='font-size:36px'></i></a>
+            <div id="solve" class="collapse p-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+        </div>
+    </div>
+    <br/><br/><br/>
+    <div class="row">
+        <div class="col-9 extend-section">
+            <a class="button4" data-toggle="collapse" data-target="#extend">כיווני הרחבה<i class='fas fa-expand-arrows-alt' style='font-size:36px'></i></a>
+            <div id="extend" class="collapse p-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+        </div>
+    </div>
+    <br/><br/><br/>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-9 tech-section">
+            <a class="button5" data-toggle="collapse" data-target="#tech">טכנולוגיות בשימוש<i class='fas fa-clipboard-check' style='font-size:36px'></i></a>
+            <div id="tech" class="collapse p-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+        </div>
+    </div>
+</div>
+<br/><br/><br/>
+<div class="row"><div class="col-12"><h2 class="police"><img src="image/polic.jpg" alt="logo police" width="40" height="30">בשיתוף משטרת ישראל - אגף התנועה </h2></div></div>
+</div>
+</body>
+</html>

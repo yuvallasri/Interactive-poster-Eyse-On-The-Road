@@ -1,0 +1,77 @@
+body{
+    overflow-x: hidden;
+    background-image: url('image/backraound.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header-container{
+    margin: 0 auto;
+}
+.view {
+    height: 100%;
+    width: 100%;
+
+}
+div.title {
+    text-align: center;
+    top: 16px;
+}
+.projectName {
+    font-size:60px;
+}
+
+.information-sections{
+    margin-top: 40px;
+}
+
+.button1, .button2, .button3, .button4, .button5 {
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.problem-section{
+    background-color:rgba(207, 0, 15, 0.5);
+}
+.system-section{
+    background-color: rgba(207, 0, 204, 0.5);
+}
+.solve-section{
+    background-color:rgba(76, 175, 80, 0.5);
+}
+.extend-section{
+    background-color:rgba(226, 102, 4, 0.5);
+}
+.tech-section{
+    background-color:rgba(20, 133, 231, 0.5);
+}
+
+.problem-section,.system-section, .solve-section, .extend-section, .tech-section{
+    font-size: 20px;
+    color: black;
+    border-radius: 20px;
+    text-align: right;
+    direction: rtl;
+
+}
+
+.accident-video{
+    margin: 0 auto;
+}
+
+.police{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
