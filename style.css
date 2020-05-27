@@ -1,10 +1,13 @@
 body{
     overflow-x: hidden;
-    background-image: url('image/backraound.jpg');
+    text-align: right;
+    direction: rtl;
+    background-image: url("image/backraound2.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
+
 
 .header-container{
     margin: 0 auto;
@@ -21,10 +24,38 @@ div.title {
 .projectName {
     font-size:60px;
 }
+.card-body{
+    background: rgba(184,184,184,0.5);
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-top: 30px;
+
+}
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+        float: right;
+        width: 25%;
+        max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+
+}
+
+.img-fluid{
+    height:125px;
+    width:100%;
+    border-radius: 30px;
+}
+.card{
+    height:125px;
+    width:100%;
+    border-radius: 30px;
+}
 
 .information-sections{
-    margin-top: 40px;
+    margin-top: 25px;
 }
+
 
 .button1, .button2, .button3, .button4, .button5 {
     border: none;
@@ -71,7 +102,9 @@ div.title {
     text-align: center;
     font-size: 20px;
 }
-
+.my_card{
+    border-radius: 50px;
+}
 
 
 
