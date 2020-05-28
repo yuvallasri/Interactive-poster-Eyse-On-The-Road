@@ -2,7 +2,7 @@ body{
     overflow-x: hidden;
     text-align: right;
     direction: rtl;
-    background-image: url("image/backraound2.png");
+    background-image: url("image/back.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -25,7 +25,14 @@ div.title {
     font-size:60px;
 }
 .card-body{
-    background: rgba(243, 244, 248, 0.5);
+    background: rgba(210, 210, 210, 0.6);
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-top: 30px;
+    border: 1px solid rgba(104, 88, 47, 0.66);
+}
+.card-body2{
+    background: rgba(165, 165, 167, 0.4);
     margin: 0 auto;
     border-radius: 30px;
     margin-top: 30px;
