@@ -83,11 +83,6 @@ div.title {
 
 }
 
-.accident-video{
-    margin: 0 auto;
-    border: none;
-}
-
 .police{
     color: white;
     text-align: center;
@@ -99,6 +94,8 @@ div.title {
 .cardimage{
     width: 80%;
 }
-
+.imagevideo{
+    margin:0;
+}
 
 
