@@ -25,31 +25,21 @@ div.title {
     font-size:60px;
 }
 .card-body{
-    background: rgba(184,184,184,0.5);
+    background: rgba(245, 236, 236, 0.64);
     margin: 0 auto;
     border-radius: 30px;
     margin-top: 30px;
-
-}
-@media (min-width: 768px) {
-    .carousel-multi-item-2 .col-md-3 {
-        float: right;
-        width: 25%;
-        max-width: 100%; } }
-
-.carousel-multi-item-2 .card img {
-
 }
 
 .img-fluid{
     height:120px;
     width:100%;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 .card{
     height:120px;
     width:100%;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 
 .information-sections{
@@ -95,6 +85,7 @@ div.title {
 
 .accident-video{
     margin: 0 auto;
+    border: none;
 }
 
 .police{
@@ -104,6 +95,9 @@ div.title {
 }
 .my_card{
     border-radius: 50px;
+}
+.cardimage{
+    width: 80%;
 }
 
 
